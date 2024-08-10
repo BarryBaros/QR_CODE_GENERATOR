@@ -8,8 +8,9 @@
     <script src="index.js" defer></script>
 </head>
 <body>
-   <div class="form">
-    <input type="text" class="user_name" placeholder="Enter your name">
+    <div class="form">
+       <h2>QR Code Generator</h2>
+    <input type="text" class="user_name input" placeholder="Enter your name">
     <input type="email" class="user_email input" placeholder="Enter your email">
     <input type="number" class="user_phone input" placeholder="Enter your phone number">
     <button class="generate_qr_code_button">Generate QR Code</button>
@@ -17,6 +18,7 @@
 
    <div class="qr_canvas">
     <h2>Your QR Code</h2>
+    <div class="loader"></div>
 
     <img src="" alt="QR Code Image" class="qr_image">
    </div>
