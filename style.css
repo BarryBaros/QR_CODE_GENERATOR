@@ -90,14 +90,16 @@ body{
     border: 6px solid var(--blueColor);
     border-top-color: white;
     position: absolute;
-    top: 40%;
-    left: 40%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     animation: spin 1s infinite !important;
+    display: none;
 }
 
 @keyframes spin{
     0%{
-        transform: 0deg;
+        transform: rotate(0deg);
     }
     100%{
         transform: rotate(360deg);
